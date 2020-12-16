@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55CFB575257CDA7700DBE003 /* 衡山毛筆フォント.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55CFB574257CDA7700DBE003 /* 衡山毛筆フォント.ttf */; };
 		55EC338225776F25001EC960 /* RandomHWApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC338125776F25001EC960 /* RandomHWApp.swift */; };
 		55EC338425776F25001EC960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC338325776F25001EC960 /* ContentView.swift */; };
 		55EC338625776F27001EC960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EC338525776F27001EC960 /* Assets.xcassets */; };
 		55EC338925776F27001EC960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55EC338825776F27001EC960 /* Preview Assets.xcassets */; };
+		55EC339225777371001EC960 /* 淺草籤.json in Resources */ = {isa = PBXBuildFile; fileRef = 55EC339125777371001EC960 /* 淺草籤.json */; };
+		55EC339A257775C8001EC960 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC3399257775C8001EC960 /* Data.swift */; };
+		55EC339F25778B25001EC960 /* myPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EC339E25778B25001EC960 /* myPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55CFB574257CDA7700DBE003 /* 衡山毛筆フォント.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "衡山毛筆フォント.ttf"; sourceTree = "<group>"; };
 		55EC337E25776F25001EC960 /* RandomHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EC338125776F25001EC960 /* RandomHWApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomHWApp.swift; sourceTree = "<group>"; };
 		55EC338325776F25001EC960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55EC338525776F27001EC960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55EC338825776F27001EC960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55EC338A25776F27001EC960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55EC339125777371001EC960 /* 淺草籤.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "淺草籤.json"; sourceTree = "<group>"; };
+		55EC3399257775C8001EC960 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		55EC339E25778B25001EC960 /* myPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +60,15 @@
 		55EC338025776F25001EC960 /* RandomHW */ = {
 			isa = PBXGroup;
 			children = (
+				55EC339125777371001EC960 /* 淺草籤.json */,
+				55CFB574257CDA7700DBE003 /* 衡山毛筆フォント.ttf */,
 				55EC338125776F25001EC960 /* RandomHWApp.swift */,
 				55EC338325776F25001EC960 /* ContentView.swift */,
 				55EC338525776F27001EC960 /* Assets.xcassets */,
 				55EC338A25776F27001EC960 /* Info.plist */,
 				55EC338725776F27001EC960 /* Preview Content */,
+				55EC3399257775C8001EC960 /* Data.swift */,
+				55EC339E25778B25001EC960 /* myPageView.swift */,
 			);
 			path = RandomHW;
 			sourceTree = "<group>";
@@ -126,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CFB575257CDA7700DBE003 /* 衡山毛筆フォント.ttf in Resources */,
 				55EC338925776F27001EC960 /* Preview Assets.xcassets in Resources */,
+				55EC339225777371001EC960 /* 淺草籤.json in Resources */,
 				55EC338625776F27001EC960 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55EC338425776F25001EC960 /* ContentView.swift in Sources */,
+				55EC339F25778B25001EC960 /* myPageView.swift in Sources */,
+				55EC339A257775C8001EC960 /* Data.swift in Sources */,
 				55EC338225776F25001EC960 /* RandomHWApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
